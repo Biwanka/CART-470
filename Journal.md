@@ -1,4 +1,6 @@
-## Question for Jonathan
+## Question for Jonathan (Done during class)
+google doc link : https://docs.google.com/document/d/1yZWV1TaTlykZLoCNf7EnK5M16_TuUiCcONSc68sI-To/edit?tab=t.0
+
 ### Why use a QR code?
 - Do we really need to use the Phone?
 - What purpose does he need it for in class?
