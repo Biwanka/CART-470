@@ -326,4 +326,7 @@ thinking of concept/ideas of games:
 - circle timer : circle appear on the screen in different sizes and starts to get smaller, if you are able to walk over it you get points, try to gather as much points as possible (leaderboard)
 
 
+*****need to think of a pushing idea game 
+
+
 
