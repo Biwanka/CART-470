@@ -1,3 +1,6 @@
+# WEEKLY Journal 
+
+# **WEEK 2**
 ## Question for Jonathan (Done during class)
 google doc link : https://docs.google.com/document/d/1yZWV1TaTlykZLoCNf7EnK5M16_TuUiCcONSc68sI-To/edit?tab=t.0
 
@@ -232,6 +235,14 @@ These are possible directions we can pitch without committing too early.
 - Best for: testing the system and proving the concept before adding more mechanics
 
 
+
+ludodrom exemple: have an icon on the phone and find the other phone 
+draw shape 
+
 ---
+
+# **WEEK 3**
+
+
 
 
