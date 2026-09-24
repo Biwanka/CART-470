@@ -243,6 +243,16 @@ draw shape
 
 # **WEEK 3**
 
+Notes taken during first meeting with Jonathan: 
+https://docs.google.com/document/d/1Mx3We4dOp7mKr-jSiF4E0hrWiADEWIQM-2A8vSljJS4/edit?usp=sharing 
+
+
+We had a meeting today with our client Jonathan about what we are doing for him. We learned more that we are doing the more test and prototype journey. We do not need to have a working base game at the end, as for him the importance is that all the different approaches to the project and trying to mediate and lessen the amount of risk and problems is what he wants us to do, so that when the 415 class, do not need to lose time on this and can automatically just work on building the game/project.
 
 
 
+
+
+Reference game: 
+
+Babba is You : https://www.youtube.com/watch?v=VjqdPjTKPiU 
