@@ -256,3 +256,74 @@ We had a meeting today with our client Jonathan about what we are doing for him.
 Reference game: 
 
 Babba is You : https://www.youtube.com/watch?v=VjqdPjTKPiU 
+
+
+
+
+SOKOBAN : 
+Sokoban minigames and variants generally fall into a few distinctive categories based on how they alter the classic box-pushing, grid-based formula.
+
+
+
+
+
+
+
+
+
+
+
+
+
+To build a projected, drop-in/drop-out exhibition game that balances asynchronous multiplayer, persistence, and player interaction, your core technical constraint is the "zero-friction" lifecycle. Because players scan a QR code, play for two minutes, and walk away, the game must never wait for an input, never display a menu, and gracefully clean up abandoned avatars.
+
+
+
+
+1. Concept: 'Eco-System' (The Cooperative Scale Game)
+- The Gameplay: The projection displays a massive, living ecosystem (a forest, an ocean, or a space nebula). When a player scans the QR code, they are assigned a creature or element (e.g., a cloud, a plant, a herbivore, a small planet).
+- The Interaction: Players control their element's movement and simple actions. A "Cloud" player rains on a "Plant" player to help them grow. A "Herbivore" player eats the fruit dropped by plants.
+
+Why it fits:
+- Asynchronous & Persistent: The ecosystem constantly moves. If 20 people are playing, it's frantic and lush. If no one is playing, automated AI takes over the idle nodes, keeping the projection beautiful.
+- No End Game: It is a looping simulation. If a certain milestone is reached (e.g., a "Super Tree" grows), a 10-second celebration animation triggers globally, and the map shifts layout or season automatically.
+
+2. Concept: 'The Infinite Construction'
+- The Gameplay: A single, giant, collaborative architectural structure (like a skyscraper, a giant marble run, or a fantasy castle) slowly climbs higher and higher up the projected wall.
+- The Interaction: Your phone acts as a crane hook or a magnet. You fly around the screen, grab floating building blocks or mechanical gears from the edges, and attach them to the central structure to help it expand.
+ Why it fits:
+- High Interaction: Players work together to build complex pathways. One player might place a conveyor belt, while another places a booster pad to move materials up.
+- Drop-In/Drop-Out: If a player walks away, their crane simply vanishes. The block they were holding drops back into the pool. The monument remains intact for the next person.
+- Progression: Once the tower reaches the absolute top of the projection, it "launches" into space, a fresh foundation appears, and the next level of building starts without stopping the game.
+
+3. Concept: 'Sokoban Swarm' (Asynchronous Grid Puzzle)
+- The Gameplay: Since you were just researching Sokoban, you can actually adapt it into a persistent massive multiplayer game. Imagine a giant grid with hundreds of boxes and hundreds of goals scattered everywhere.
+- The Interaction: Each player controls a little worker. On your phone, you only see 4 arrow buttons. You can push boxes toward goals to clear paths.
+Why it fits:
+- Persistent Impact: If Player A leaves a box in a hallway, it stays there. Player B walks up 20 minutes later and has to deal with that layout.
+- Progression: When the collective group manages to push all boxes on the screen into goals (or hits a target percentage), the screen flashes "Success!", automatically dissolves into a brand-new maze layout, and players keep moving instantly.
+
+
+4. Concept: 'Constellation / Nebula Control' (The Slither Evolution)
+- The Gameplay: Similar to slither.io, players spawn as tiny glowing cosmic particles. They absorb floating cosmic stardust to grow larger and trail a massive, glowing tail of light behind them.
+- The Interaction: Instead of eating each other to kill them (which frustrates short-term exhibit visitors), colliding with another player fuses your light trails together, temporarily boosting both of your speeds and drawing beautiful constellation lines across the wall.
+Why it fits:
+- Simple Control: Purely 2D directional steering on the smartphone screen.
+- No Menus: When you close your browser or walk away, your particle gently burns out into static stardust over 10 seconds, leaving food for the others.
+
+
+
+Exhibit Architecture Rules for This Concept
+
+To make sure your choose concept functions smoothly on the floor, follow these production rules:
+- The Ghost Timeout (Crucial): If a phone doesn't send an input for 30 seconds (or if the phone screen locks because the visitor put it in their pocket), the game must smoothly fade that player's character out.
+- Automated Level Rollover: Never have a "Play Next Level" button on the screen. Use a 5-second countdown timer overlayed on the gameplay (e.g., "Next Grid Loading in 5...4...") so current players know a transition is happening, then seamlessly swap the assets.
+- Color-Coded Onboarding: When a user scans the QR code, their phone web page background should turn a bright, solid color (e.g., Neon Green), and their avatar on the projection wall should match that exact color with a label saying "You". This instantly tells the user which character they control without them having to guess.
+
+
+thinking of concept/ideas of games: 
+
+- circle timer : circle appear on the screen in different sizes and starts to get smaller, if you are able to walk over it you get points, try to gather as much points as possible (leaderboard)
+
+
+
