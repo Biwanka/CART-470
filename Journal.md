@@ -263,10 +263,14 @@ Babba is You : https://www.youtube.com/watch?v=VjqdPjTKPiU
 SOKOBAN : 
 Sokoban minigames and variants generally fall into a few distinctive categories based on how they alter the classic box-pushing, grid-based formula.
 
+- push boxes onto labeled tiles, when all the label tiles have a box on them, do you pass the level.
 
 
 
 
+https://www.youtube.com/watch?v=_iZLe05aJuU 
+
+https://www.youtube.com/watch?v=TgWibgp2NwM 
 
 
 
@@ -315,11 +319,14 @@ Why it fits:
 
 Exhibit Architecture Rules for This Concept
 
-To make sure your choose concept functions smoothly on the floor, follow these production rules:
+**Rule or ideas to think about :** 
+
 - The Ghost Timeout (Crucial): If a phone doesn't send an input for 30 seconds (or if the phone screen locks because the visitor put it in their pocket), the game must smoothly fade that player's character out.
 - Automated Level Rollover: Never have a "Play Next Level" button on the screen. Use a 5-second countdown timer overlayed on the gameplay (e.g., "Next Grid Loading in 5...4...") so current players know a transition is happening, then seamlessly swap the assets.
 - Color-Coded Onboarding: When a user scans the QR code, their phone web page background should turn a bright, solid color (e.g., Neon Green), and their avatar on the projection wall should match that exact color with a label saying "You". This instantly tells the user which character they control without them having to guess.
 
+
+- Bomb disconected player: if a player leaves there avatar could be a timmer bomb that explodes (depending on the type of game)
 
 thinking of concept/ideas of games: 
 
