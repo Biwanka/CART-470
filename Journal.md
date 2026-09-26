@@ -345,6 +345,7 @@ thinking of concept/ideas of games:
 - circle timer : circle appear on the screen in different sizes and starts to get smaller, if you are able to walk over it you get points, try to gather as much points as possible (leaderboard)
 
 - colour tiles: have a grid where a player walks on a square and it colours it, try to have the most coloured squares on the map. 
+- could be a collection game 
 
 *****need to think of a pushing idea game 
 
@@ -362,3 +363,24 @@ thinking of concept/ideas of games:
 | 30 players           | Potentially chaotic        | Crowded world          | High-pressure                       |
 | Main risk            | Players interfere          | Too complex            | Requires balancing                  |
 | Prototype difficulty | **Low–medium**             | Medium                 | Medium                              |
+
+┌──────────────────────────────────────┐
+│                                      │
+│       ●       ■                      │
+│                  ●                   │
+│          ███                         │
+│                         ●            │
+│                                      │
+│      ●          ★        b           │
+│                                      │
+│              █████                   │
+│                                      │
+│   Score: 284          Players: 17    │
+└──────────────────────────────────────┘
+
+       ↑
+    ←  ●  →
+       ↓
+
+   ACTION
+   
