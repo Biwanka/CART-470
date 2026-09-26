@@ -250,7 +250,19 @@ https://docs.google.com/document/d/1Mx3We4dOp7mKr-jSiF4E0hrWiADEWIQM-2A8vSljJS4/
 We had a meeting today with our client Jonathan about what we are doing for him. We learned more that we are doing the more test and prototype journey. We do not need to have a working base game at the end, as for him the importance is that all the different approaches to the project and trying to mediate and lessen the amount of risk and problems is what he wants us to do, so that when the 415 class, do not need to lose time on this and can automatically just work on building the game/project.
 
 
-
+question to think when thinking about the game :
+-  What does the player do with their phone?
+- What does their avatar do on the projected screen?
+- What are 20–30 players doing at once?
+- What happens when someone leaves?
+- What happens when someone joins?
+- What is the player's goal?
+- How does the player know they're succeeding?
+- What persists after they leave?
+- Is there a reason to keep playing for ~5 minutes?
+- What happens if only 1–3 people are there?
+- What happens if there are 30 people?
+- Can the game exist without a lobby, host, countdown, or coordinated start?
 
 
 Reference game: 
@@ -332,8 +344,21 @@ thinking of concept/ideas of games:
 
 - circle timer : circle appear on the screen in different sizes and starts to get smaller, if you are able to walk over it you get points, try to gather as much points as possible (leaderboard)
 
+- colour tiles: have a grid where a player walks on a square and it colours it, try to have the most coloured squares on the map. 
 
 *****need to think of a pushing idea game 
 
 
 
+|                      | Collective Puzzle          | Living Ecosystem       | Shared Disaster                     |
+| -------------------- | -------------------------- | ---------------------- | ----------------------------------- |
+| Main interaction     | Move/push objects          | Explore/collect        | Repair/respond                      |
+| Game structure       | Puzzle                     | Persistent world       | Survival                            |
+| Player relationship  | Cooperate indirectly       | Coexist                | Cooperate under pressure            |
+| Leaving              | Character remains/inactive | Creature persists      | Character disappears/continues task |
+| Joining              | Enter current puzzle       | Enter current world    | Join current crisis                 |
+| Score                | Puzzle contribution        | Resources/contribution | Survival/repairs                    |
+| 20 players           | Collaborative puzzle       | Busy ecosystem         | Chaotic teamwork                    |
+| 30 players           | Potentially chaotic        | Crowded world          | High-pressure                       |
+| Main risk            | Players interfere          | Too complex            | Requires balancing                  |
+| Prototype difficulty | **Low–medium**             | Medium                 | Medium                              |
