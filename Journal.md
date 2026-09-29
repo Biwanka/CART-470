@@ -351,6 +351,577 @@ thinking of concept/ideas of games:
 
 
 
+
+
+
+1. Circle Timer — "Catch the Circles"
+
+The projected screen has circles appearing around the map.
+
+- Circles have different sizes.
+- Each circle has a timer.
+- Players move their avatars over them before they disappear.
+- Smaller circles = harder to catch / potentially more points.
+- A player standing over a circle collects it.
+- New circles continuously appear.
+- The leaderboard is always visible.
+
+Loop : Move → find circle → collect → earn points → repeat
+
+
+The interesting part is that you can make the circles collectively or individually competitive.
+
+For example:
+
+Individual:
+Everyone is trying to get their own highest score.
+
+Shared:
+Everyone contributes to one giant community score.
+
+Mixed:
+Individual leaderboard + collective goal.
+
+The mixed version could be particularly useful because it gives people a reason to interact with the same world without requiring formal teams.
+
+Problem to test: With 30 players, do people have enough circles to interact with, or does it become chaos?
+
+That's a very good de-risking question.
+
+
+
+
+
+
+2. Colour Tiles — "Claim the Map"
+
+I really like this one for your project because it is extremely easy to understand visually.
+
+The screen starts as:
+
+
+□ □ □ □ □ □ □ □
+□ □ □ □ □ □ □ □
+□ □ □ □ □ □ □ □
+□ □ □ □ □ □ □ □
+□ □ □ □ □ □ □ □
+
+Each player has an avatar.
+
+When they walk over a tile:
+
+□ □ ● □ □
+□ ■ ■ ■ □
+□ ■ ■ ■ □
+□ □ ● □ □
+
+
+Their path colours the floor.
+
+Now you have a persistent question:
+
+What happens to a tile after it has been claimed?
+
+A. Permanent tiles
+
+Once coloured, they stay coloured.
+
+This makes the whole screen gradually transform.
+
+B. Temporary tiles
+
+Tiles fade back to neutral after 10–30 seconds.
+
+This keeps the game active.
+
+C. Ownership
+
+Walking over another player's tile changes its ownership.
+
+Now players are competing for territory.
+
+D. Combination
+
+Players can create shapes by connecting tiles.
+
+For example:
+
+Complete a 5×5 area → bonus.
+
+That could make the game much more interesting than simply "colour as many squares as possible."
+
+And it naturally creates a persistent game state.
+
+Someone leaves:
+
+Their coloured territory stays.
+
+Someone joins:
+
+They enter an already-developed map.
+
+That's exactly the kind of problem your project needs to investigate.
+
+
+
+
+
+
+
+3. Collection Game
+
+This could actually become a family of games rather than one specific concept.
+
+The basic mechanic:
+
+Move around → find object → collect object → bring it somewhere / accumulate it → score.
+
+For example, the screen could have:
+
+coins
+stars
+food
+resources
+pieces of a puzzle
+objects that belong together
+
+Players could have limited carrying capacity.
+
+So:
+
+Find → collect → return → deposit → score
+
+Then the persistent element becomes important.
+
+Maybe the world is slowly being emptied of resources.
+
+Or resources regenerate.
+
+Or everyone is collectively trying to fill a giant storage container.
+
+
+
+
+
+And your "bomb when disconnected" idea is actually really useful
+
+I wouldn't necessarily make it the entire game mechanic.
+
+I'd treat it as a solution to the player-leaving problem.
+
+For example:
+
+Player disconnects → their avatar becomes a bomb → 15-second countdown → explosion affects the environment.
+
+That immediately gives meaning to someone leaving.
+
+But you could adapt the idea depending on the game.
+
+In the circle game
+
+Disconnected player becomes a bonus/time bomb.
+
+PLAYER LEAVES
+      ↓
+   💣 10 sec
+      ↓
+   EXPLOSION
+      ↓
+Nearby circles disappear
+OR
+Nearby circles become bonus circles
+
+
+In the tile game
+
+Their avatar becomes a bomb planted on their last tile.
+
+When it explodes:
+
+Tiles around them change ownership/reset.
+
+That creates a really interesting consequence to leaving.
+
+In the collection game
+
+Their avatar becomes a resource crate.
+
+Other players can collect what they left behind.
+
+That would connect nicely to your client's:
+
+"does the character disappear, or does his body become dead to be consumed"
+
+You don't necessarily need to make it dark. The basic principle is:
+
+A disconnected player leaves something behind that other players can interact with.
+
+I think that's a very strong design principle for your project.
+
+
+
+
+
+I'd also change how you're thinking about the leaderboard
+
+Your client specifically likes the leaderboard, but you don't want it to simply be:
+
+Bianca — 532 points
+Alex — 489 points
+etc.
+
+because then you have to figure out how individual scoring works in every possible mechanic.
+
+Instead, you could experiment with different scoring models.
+
+Individual
+
+Who collected the most?
+
+Territory
+
+Who controls the most?
+
+Contribution
+
+Who contributed the most to the collective objective?
+
+Survival
+
+How long has the community kept the world alive?
+
+Global + individual
+
+
+COMMUNITY
+██████████████░░░░  72%
+
+TOP PLAYERS
+
+1. Player 27     482
+2. Player 04     421
+3. Player 18     398
+
+This also gives you something interesting to research during the prototype stage:
+
+Does competition actually help people understand what they're supposed to do? 
+
+
+
+I think your three concepts could become these
+🟣 01 — CIRCLE TIMER
+
+Core mechanic: Chase/collect
+
+Circles appear, shrink, and disappear. Players move over them to collect points.
+
+Main question:
+Can a simple reaction/movement game remain interesting with 1–30 players?
+
+🟦 02 — COLOUR MAP
+
+Core mechanic: Claim
+
+Players colour the world by walking through it and compete/cooperate to transform the map.
+
+Main question:
+How does a persistent world change when players continuously enter and leave?
+
+🟡 03 — COLLECTION
+
+Core mechanic: Gather
+
+Players explore the shared screen, collect objects, and contribute them toward individual or collective goals.
+
+Main question:
+How can players contribute asynchronously to a shared objective?
+
+
+
+
+And then Bomb/Disconnected Avatar isn't necessarily #4. It's a system you test across the three concepts:
+
+Player joins → receives avatar → plays → disconnects → avatar leaves a persistent consequence.
+
+That is actually one of the strongest things your team could prototype because the client specifically identified joining/leaving as a design problem.
+
+
+
+
+
+4. copy design "hit the brick until you get the right one" idea
+
+
+
+It could become a kind of collective pixel-art / mosaic puzzle.
+
+The core idea
+
+The projected screen has a large grid of bricks/tiles.
+
+At the bottom or side of the screen is a target image that everyone is collectively trying to reproduce.
+
+For example:
+
+
+TARGET            
+
+🟦 🟦 🟥 🟥         
+🟦 🟨 🟥 🟥         
+🟩 🟩 🟨 🟨        
+🟩 🟩 🟨 🟨         
+
+
+GAME BOARD
+□ □ □ □ □ □
+□ □ □ □ □ □
+□ □ □ □ □ □
+□ □ □ □ □ □
+
+
+Players control little avatars and interact with the bricks.
+
+The goal is:
+
+Work together to make the giant board match the target image.
+
+Once the image is correct, the puzzle is completed and a new image appears.
+
+That immediately gives you:
+
+Action → visible change → collective objective → completion → new level
+
+
+
+"hit the brick until you get the right one" idea
+
+Imagine each brick has several possible states:
+
+🔴 → 🟡 → 🟢 → 🔵 → 🟣 → 🔴
+
+When your avatar hits/walks into a brick:
+
+brick changes to the next colour/type.
+
+So the player isn't selecting a colour from a complicated UI.
+
+They just:
+
+Walk into brick → brick changes.
+
+The challenge is figuring out:
+
+"How many times do I need to hit this brick to get the correct state?"
+
+And because everyone shares the same board, someone else might change the brick while you're working on it.
+
+That creates a really interesting multiplayer problem.
+
+
+ou could also make the "paintbrush" version
+
+I think this is potentially even more intuitive.
+
+At the bottom of the projected screen:
+
+PAINT
+🔴   🟡   🔵   🟢
+
+Players have a little avatar carrying a brush.
+
+On their phone, they could have something like:
+
+     PAINT
+
+   🔴  🟡  🔵  🟢
+
+They select a colour on their phone.
+
+Then:
+
+walk into brick → brick gets painted that colour.
+
+So the phone is basically the paint palette, while the projected screen is the canvas.
+
+That creates a really nice relationship between the two devices:
+
+Phone = tool
+Projection = shared world
+
+
+
+
+
+Instead of telling players what colour they need, you could make the target image visible.
+
+For example:
+
+TARGET
+
+🟥 🟥 🟦
+🟥 🟨 🟦
+🟩 🟩 🟦
+
+And the giant board is:
+
+□ □ □
+□ □ □
+□ □ □
+
+Players have to look at the target and figure out what needs to change.
+
+That makes the game almost like a collaborative puzzle.
+
+And you can make the target progressively more complicated.
+
+Level 1
+
+3 × 3
+
+Level 2
+
+5 × 5
+
+Level 3
+
+8 × 8
+
+Level 4
+
+Image/pixel art
+
+
+
+The asynchronous part becomes really good here
+
+Imagine 8 people are playing.
+
+They get the board 60% complete.
+
+Then five people leave.
+
+Their progress doesn't disappear.
+
+The board remains:
+
+██████░░
+████░░░░
+███░░░░░
+██░░░░░░
+
+Then three new people scan the QR code.
+
+They enter the existing board and immediately understand:
+
+"Oh, we're finishing this picture."
+
+They don't need a lobby.
+
+They don't need to wait.
+
+They don't need to know what happened before.
+
+They just continue the work.
+
+That's a very strong fit for the assignment.
+
+
+And your disconnected-player bomb could work here too
+
+This is where I'd experiment with it rather than making it mandatory.
+
+Suppose someone leaves.
+
+Their avatar becomes:
+
+💣 A paint bomb
+
+After 10 seconds:
+
+BOOM
+
+and it paints/recolors the surrounding bricks.
+
+That could be either helpful or harmful.
+
+For example:
+
+Player disconnects → bomb explodes → 3 nearby bricks reset.
+
+Now suddenly leaving has a consequence.
+
+Or make it positive:
+
+Player disconnects → leaves behind a paint bucket containing their current colour.
+
+Now another player can pick it up.
+
+That would directly test one of the big design questions from your meeting:
+
+What happens to the avatar when the player leaves?
+
+
+You could also make it more physical
+
+Instead of the player simply touching a brick, the avatar could have to push the brick.
+
+For example:
+
+      PLAYER
+        ↓
+       🧍
+       🟥
+       🟥
+       🟥
+
+The player pushes the brick along the board.
+
+Certain bricks can only be pushed horizontally/vertically.
+
+Now you have a Sokoban influence, which connects directly to the references your client gave you.
+
+You could even combine them:
+
+Players move bricks AND change their colours to reproduce the target image.
+
+That would be more complicated, though, so I'd probably prototype colour-changing first and only add pushing if the basic mechanic works.
+
+
+03 — Collaborative Mosaic
+
+Concept:
+Players collectively recreate a target image on a large projected grid.
+
+Player interaction:
+Players control an avatar using their phone. They can interact with bricks by touching/hitting them, cycling their colour/type, or selecting a colour from their phone and painting the brick.
+
+Goal:
+Reproduce the target image as accurately as possible.
+
+Progression:
+When the image is completed, a new target is generated.
+
+Persistent element:
+The partially completed image remains when players leave. New players can join and continue the work.
+
+Multiplayer:
+1–30 players can work on different parts of the image simultaneously.
+
+Leaderboard:
+Could track completed images, individual contributions, or collective completion time.
+
+Disconnect:
+A departing player's avatar could disappear, leave behind an object, or trigger a temporary event such as a paint bomb.
+
+Main prototype question:
+
+Can 20–30 people collectively manipulate a shared grid without making the board too chaotic or preventing players from understanding what they should do?
+
+
+
+
+
+
 |                      | Collective Puzzle          | Living Ecosystem       | Shared Disaster                     |
 | -------------------- | -------------------------- | ---------------------- | ----------------------------------- |
 | Main interaction     | Move/push objects          | Explore/collect        | Repair/respond                      |
