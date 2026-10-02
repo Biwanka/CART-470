@@ -920,8 +920,6 @@ Can 20–30 people collectively manipulate a shared grid without making the boar
 
 
 
-
-
 |                      | Collective Puzzle          | Living Ecosystem       | Shared Disaster                     |
 | -------------------- | -------------------------- | ---------------------- | ----------------------------------- |
 | Main interaction     | Move/push objects          | Explore/collect        | Repair/respond                      |
@@ -934,24 +932,3 @@ Can 20–30 people collectively manipulate a shared grid without making the boar
 | 30 players           | Potentially chaotic        | Crowded world          | High-pressure                       |
 | Main risk            | Players interfere          | Too complex            | Requires balancing                  |
 | Prototype difficulty | **Low–medium**             | Medium                 | Medium                              |
-
-┌──────────────────────────────────────┐
-│                                      │
-│       ●       ■                      │
-│                  ●                   │
-│          ███                         │
-│                         ●            │
-│                                      │
-│      ●          ★        b           │
-│                                      │
-│              █████                   │
-│                                      │
-│   Score: 284          Players: 17    │
-└──────────────────────────────────────┘
-
-       ↑
-    ←  ●  →
-       ↓
-
-   ACTION
-   
