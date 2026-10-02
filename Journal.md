@@ -1171,7 +1171,8 @@ Important principle for your lens:
 
 Don't explain the whole game. Explain the next action.
 
-2. ⚽ Big Ball Soccer
+
+## 2.  Big Ball Soccer
 
 This one creates a very different problem.
 
@@ -1179,7 +1180,7 @@ The basic idea:
 
 Players are split into two teams and push a giant ball toward the opposing goal.
 
-Asynchronous / Continuous
+### Asynchronous / Continuous
 
 This is probably where you have to do the most design work.
 
@@ -1201,7 +1202,7 @@ The game can't really stop and say:
 
 That would violate your whole project concept.
 
-Solution 1 — Automatic team assignment
+#### **Solution 1 — Automatic team assignment**
 
 Every new player is automatically assigned to the smaller team.
 
@@ -1211,13 +1212,13 @@ But what happens when people leave?
 
 You still potentially get imbalance.
 
-Solution 2 — Don't use fixed teams
+#### **Solution 2 — Don't use fixed teams**
 
 Instead, everyone can push the same ball and has a personal goal.
 
 But then you've lost the team-based idea.
 
-Solution 3 — Dynamic team balancing
+#### **Solution 3 — Dynamic team balancing**
 
 When someone joins:
 
@@ -1231,7 +1232,9 @@ No lobby.
 
 No "match start."
 
-The biggest asynchronous problem: scoring
+/
+
+### The biggest asynchronous problem: scoring
 
 Imagine Team A scores.
 
@@ -1277,7 +1280,9 @@ That's much better than a timer saying:
 
 Because the timer implies a round.
 
-Phone/controller
+/
+
+### Phone/controller
 
 This could actually be very simple:
 
@@ -1325,7 +1330,7 @@ Avatar disappears → ball retains its current momentum.
 
 That would make the player feel like they were physically participating in the world.
 
-3. 🧩 Maze / Collection Game
+## 3. Maze / Collection Game
 
 From your board:
 
@@ -1343,7 +1348,7 @@ Thirty people can play.
 
 People can continuously enter and leave.
 
-Asynchronous / Continuous
+### Asynchronous / Continuous
 
 This is probably the easiest structure to make continuous.
 
@@ -1405,7 +1410,9 @@ Gain: Players can adapt and understand the rule.
 
 Loss: Less chaotic/surprising.
 
-Phone/controller
+/
+
+### Phone/controller
 
 Again:
 
