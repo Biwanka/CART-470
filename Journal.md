@@ -1456,12 +1456,15 @@ They learn:
 
 You don't need a paragraph explaining the game.
 
+
+//////
+
 Now I'd make a table like this for your actual project
 
 This could become the core of your section of the research/de-risking:
 
-	🏗️ Tower	⚽ Soccer	🧩 Maze
-Join	Join existing tower	Automatically join a team	Spawn into current maze
+	 Tower	/ Soccer	/  Maze
+Join existing tower	Automatically join a team	Spawn into current maze
 Leave	Tower remains	Team continues	Maze continues
 Player disappears	Avatar disappears	Avatar disappears	Avatar disappears
 Current game persists?	Tower	Score/ball	Maze/score
