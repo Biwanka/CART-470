@@ -932,3 +932,690 @@ Can 20–30 people collectively manipulate a shared grid without making the boar
 | 30 players           | Potentially chaotic        | Crowded world          | High-pressure                       |
 | Main risk            | Players interfere          | Too complex            | Requires balancing                  |
 | Prototype difficulty | **Low–medium**             | Medium                 | Medium                              |
+
+
+
+---------------------------------------
+
+
+# Week 4 
+
+Now that we had a meeting about all of our ideas. we decided to then start discusing and shortening the ideas until we only had 3 
+figma link for that meeting : https://www.figma.com/board/joIBlHFDXsKuD8T4MNxz97/CART-470-_Ideation?node-id=1-24&t=nfvc4baqqIPk503x-0 
+
+
+task of this week for next class : 
+Here are the stuff for next week need to discuss next time:
+
+Criteria:
+
+Multiplayer  ( 20 player , game flow)  ( Alex)
+(many player) 20-30 player in the game
+( to less player) 1 player
+Asynchronous / Continuous ( Biaca)
+controller (phone)
+game play ( when someone leave suddenly, player in and out )
+Simple ( UI) , lack of menu
+How to present the rule
+rules is player could understand
+How to keep it simple and easy understand
+That they can understand easier
+Why someone want to stay[Internal (already in the game) ]( Emma)
+reseaons
+variation ( ideas +suggestions)
+Why someone want to come back/ppl want to join  External (ppl leave/ ppl pass by)  ( FayFay)
+reasons
+variation ( ideas +suggestions)
+
+All of them can pros: & cons and how to solve the cons , what will be lose if you solve 
+![alt text](image.png)
+
+
+
+
+
+
+
+
+
+my job is to ask:
+
+“If we force this game to work as an always-on, drop-in/drop-out, phone-controlled game with almost no UI, what breaks?”
+
+Then for each game, I need to identify what you gain, what you lose, and what design rules could prevent the problem.
+
+My lens can basically be:
+
+- de-risking lens
+Asynchronous / continuous
+Can the game exist without everyone being there at once?
+What happens when someone joins?
+What happens when someone leaves?
+Can the game continue without a host/start/end?
+Controller / phone
+What does the phone actually do?
+Can the controls be understood immediately?
+How much information needs to be on the phone vs. projection?
+Simple UI / no menu
+Can we eliminate menus?
+Can the rules be understood from the game itself?
+What needs to be shown on the projected screen?
+Rule communication
+Can a stranger understand what to do in ~10–20 seconds?
+Can they learn by doing rather than reading?
+What happens if they misunderstand?
+
+
+
+
+
+## 1. Tower-Building / Jenga
+Basic game
+
+Players work together to build the tallest tower.
+
+They can potentially:
+
+- move
+- push
+- pick up
+- place blocks
+- jump/interact with blocks
+
+The tower eventually becomes unstable and falls.
+
+### Asynchronous / Continuous : The main problem
+
+What does "the game" mean when people are constantly joining and leaving?
+
+If 10 people are currently building and 5 leave, the tower obviously stays.
+
+That's actually good.
+
+But what if:
+
+- someone is holding a block and leaves?
+- someone is standing on something?
+- someone disconnects while pushing?
+- the tower is already almost falling when a new person arrives?
+
+Possible solution
+
+Make the tower itself persistent, but players are temporary.
+
+So:
+
+Player joins → gets avatar → interacts with current tower → leaves → tower remains.
+
+If someone disconnects while holding a block:
+
+The block automatically drops.
+
+Don't make the game wait for them.
+
+What is gained?
+Very natural persistence.
+New players immediately understand that they are joining something already happening.
+Previous players leave a visible contribution.
+The tower itself becomes a record of previous players.
+What is lost?
+
+You lose some control over the difficulty.
+
+A new player might join a tower that is:
+
+- extremely stable
+- almost collapsing
+- already very tall
+- poorly built
+
+But that might actually be part of the experience.
+
+
+ /
+
+
+
+### What happens when the tower falls?
+
+This is one of your biggest design decisions.
+
+#### **Option A — Full reset**
+
+Tower falls → screen clears → new tower begins.
+
+Gain: Very easy to understand.
+
+Loss: It isn't fully persistent anymore.
+
+#### **Option B — Automatic new tower**
+
+Tower falls → animation → new tower automatically appears.
+
+This is probably the cleanest solution for your particular project.
+
+The player doesn't need to press:
+
+"START NEW GAME"
+
+The game simply continues.
+
+#### **Option C — The rubble becomes the beginning of the next tower**
+
+The fallen blocks remain and players rebuild from them.
+
+Gain: More persistent.
+
+Loss: More difficult to understand and potentially harder to implement.
+
+For the prototype, I'd test automatic reset first.
+
+
+/
+
+### Phone/controller
+
+The phone could be incredibly simple:
+
+        ↑
+    ←   ●   →
+        ↓
+
+       PICK UP
+
+Or even:
+
+Tap = pick up / interact
+Drag = move
+
+But you need to be careful.
+
+If the player's avatar is controlled through a virtual joystick, you've immediately introduced UI that players have to learn.
+
+A simpler controller might be:
+
+Swipe direction → avatar moves
+
+or
+
+Touch/hold → avatar moves toward that location.
+
+De-risk question:
+
+Can someone who has never seen the game understand how to move within 5 seconds?
+
+That's something you can actually prototype and test.
+
+Rule communication
+
+You might not need a tutorial at all.
+
+The screen could say:
+
+BUILD THE TALLEST TOWER
+
+Then show:
+
+← → MOVE
+TAP TO PICK UP
+
+And have the first block glow.
+
+The player learns:
+
+"Oh, I pick this up."
+
+Then the game teaches the next action through the environment.
+
+Important principle for your lens:
+
+Don't explain the whole game. Explain the next action.
+
+2. ⚽ Big Ball Soccer
+
+This one creates a very different problem.
+
+The basic idea:
+
+Players are split into two teams and push a giant ball toward the opposing goal.
+
+Asynchronous / Continuous
+
+This is probably where you have to do the most design work.
+
+Imagine:
+
+Team A: 8 players
+Team B: 2 players
+
+Then three people leave Team B.
+
+Now:
+
+Team A: 8
+Team B: 0
+
+The game can't really stop and say:
+
+"WAIT FOR TEAM B."
+
+That would violate your whole project concept.
+
+Solution 1 — Automatic team assignment
+
+Every new player is automatically assigned to the smaller team.
+
+Good.
+
+But what happens when people leave?
+
+You still potentially get imbalance.
+
+Solution 2 — Don't use fixed teams
+
+Instead, everyone can push the same ball and has a personal goal.
+
+But then you've lost the team-based idea.
+
+Solution 3 — Dynamic team balancing
+
+When someone joins:
+
+automatically assign them to whichever team needs players.
+
+When someone leaves:
+
+their contribution simply disappears.
+
+No lobby.
+
+No "match start."
+
+The biggest asynchronous problem: scoring
+
+Imagine Team A scores.
+
+What happens?
+
+You cannot necessarily say:
+
+"Everyone return to lobby for the next round."
+
+Instead:
+
+Goal → score → ball automatically returns to centre.
+
+Immediately.
+
+BALL → GOAL
+       ↓
+   +1 POINT
+       ↓
+BALL RESET
+       ↓
+CONTINUE
+
+That gives you a continuous game.
+
+But there is another issue
+
+If someone arrives when the ball is already 80% toward a goal, they don't know:
+
+"Did I miss the beginning?"
+
+You therefore need to make the game state understandable.
+
+The projected screen can constantly communicate:
+
+BLUE 12 — RED 9
+
+and the ball's position tells you what is happening.
+
+That's much better than a timer saying:
+
+01:32 remaining.
+
+Because the timer implies a round.
+
+Phone/controller
+
+This could actually be very simple:
+
+       ↑
+    ←  ●  →
+       ↓
+
+Player just pushes their avatar around.
+
+The phone doesn't need to show the soccer field.
+
+That's important.
+
+The phone is the controller, not the second screen.
+
+Gain
+
+Very low UI complexity.
+
+Risk
+
+People might not understand that their avatar pushes the ball.
+
+So the game should demonstrate it automatically.
+
+For example:
+
+Player joins → avatar spawns beside ball → player moves → ball visibly moves.
+
+They learn without instructions.
+
+Leaving
+
+If someone leaves:
+
+Avatar disappears.
+
+That's probably enough.
+
+You don't necessarily need a special death/disconnect mechanic here.
+
+But if you want to make the departure meaningful:
+
+Avatar disappears → ball retains its current momentum.
+
+That would make the player feel like they were physically participating in the world.
+
+3. 🧩 Maze / Collection Game
+
+From your board:
+
+Individual competitive game
+Players move through a maze and collect gems/jam/etc.
+The maze can change every 5/10/15 seconds by moving/rearranging blocks.
+
+This one has an interesting advantage for your lens:
+
+The player doesn't need anyone else.
+
+One person can play.
+
+Thirty people can play.
+
+People can continuously enter and leave.
+
+Asynchronous / Continuous
+
+This is probably the easiest structure to make continuous.
+
+Player joins:
+
+Spawn them somewhere in the maze.
+
+They immediately start collecting.
+
+Player leaves:
+
+Remove avatar.
+
+The maze continues.
+
+Other players continue collecting.
+
+But there is a problem:
+
+If the maze changes while someone is playing, what happens?
+
+Imagine:
+
+Player is walking toward a gem.
+
+Then:
+
+MAZE CHANGES
+
+The wall moves.
+
+Now they're trapped.
+
+This could be fun, but it can also feel random/frustrating.
+
+Possible solution: predictable changes
+
+Instead of:
+
+Randomly change the maze every 5 seconds.
+
+Have:
+
+MAZE SHIFTING IN 3... 2... 1...
+
+Then players know something is about to happen.
+
+This is an example of something your lens can investigate:
+
+Random change
+
+Gain: Surprise, unpredictability.
+
+Loss: Player may feel that their failure wasn't their fault.
+
+Signalled change
+
+Gain: Players can adapt and understand the rule.
+
+Loss: Less chaotic/surprising.
+
+Phone/controller
+
+Again:
+
+Move avatar.
+
+That's it.
+
+Maybe the phone has:
+
+       ↑
+    ←  ●  →
+       ↓
+
+    127 points
+
+Or even just the directional controls.
+
+The score can stay on the projection.
+
+How do you explain the rules?
+
+This one is particularly good for learning by doing.
+
+When someone joins:
+
+Their avatar appears.
+A gem appears directly nearby.
+They move toward it.
+It disappears.
+Their score increases.
+
+They immediately learn:
+
+"I move → I collect → I get points."
+
+Then the maze changes.
+
+They learn:
+
+"Oh, the environment changes too."
+
+You don't need a paragraph explaining the game.
+
+Now I'd make a table like this for your actual project
+
+This could become the core of your section of the research/de-risking:
+
+	🏗️ Tower	⚽ Soccer	🧩 Maze
+Join	Join existing tower	Automatically join a team	Spawn into current maze
+Leave	Tower remains	Team continues	Maze continues
+Player disappears	Avatar disappears	Avatar disappears	Avatar disappears
+Current game persists?	Tower	Score/ball	Maze/score
+Need a round?	No	No	No
+Need a lobby?	No	No	No
+Reset condition	Tower falls	Goal scored	Continuous maze
+New player understands state?	See tower	See ball/score	See maze/items
+Main phone action	Move/interact	Move/push	Move/collect
+UI complexity	Medium	Low	Low
+Biggest risk	Player interference	Team imbalance	Maze changes
+Rule difficulty	Medium	Very low	Very low
+And this is where your "simple UI" lens becomes really useful
+
+I'd define three levels of information.
+
+Level 1 — MUST KNOW
+
+Things the player needs immediately.
+
+For example:
+
+MOVE
+
+Level 2 — LEARN THROUGH PLAY
+
+Things they can discover.
+
+You push the ball.
+
+You can pick up blocks.
+
+The maze changes.
+
+Level 3 — DON'T NEED TO KNOW
+
+Behind-the-scenes systems.
+
+Team balancing logic.
+
+Player disconnect handling.
+
+Server state.
+
+Reset logic.
+
+This is important because you don't want the projected screen to become an instruction manual.
+
+A really useful rule for all three
+
+I'd propose this as one of your team's design principles:
+
+"The game should teach the player through the first interaction, not through a tutorial."
+
+For an exhibition, someone might scan the QR code and give you 15 seconds of attention.
+
+You can't assume they'll read:
+
+"Welcome to our multiplayer asynchronous experience. Your objective is..."
+
+They should be able to look at the screen and immediately think:
+
+"Oh. I move my little guy."
+
+Then:
+
+"Oh! I pushed the ball."
+
+or
+
+"Oh! I collected something."
+
+or
+
+"Oh! I picked up the block."
+
+That's the real de-risking question.
+
+I'd also test the three games against 5 player states
+
+This could become your actual testing framework:
+
+🟢 State 1 — Nobody is playing
+
+What does the screen show?
+
+This is important because your client specifically said the game is always there.
+
+You need a screen that makes sense even when there are zero players.
+
+🟢 State 2 — One person joins
+
+Can they understand the game without anyone explaining it?
+
+This is probably your most important test.
+
+🟢 State 3 — Five people
+
+Does collaboration/competition start naturally?
+
+🟢 State 4 — Someone leaves
+
+Does the game continue without interruption?
+
+🟢 State 5 — 20–30 people
+
+Does the game remain understandable?
+
+This is where you test whether the screen becomes visually chaotic.
+
+And I'd add one more: "late player"
+
+Someone walks up when the game has already been running for 20 minutes.
+
+They have zero context.
+
+Ask:
+
+Can this person understand what is happening just by looking at the screen?
+
+That is basically the ultimate test of your asynchronous + simple UI lens.
+
+For example:
+
+Tower
+
+They see:
+
+🧱🧱🧱🧱🧱
+
+Obviously: people are building something.
+
+Soccer
+
+They see:
+
+⚽ → GOAL
+
+Pretty obvious.
+
+Maze
+
+They see:
+
+🧍 → 💎
+
+Pretty obvious.
+
+If your player needs a paragraph of instructions before they can understand what's happening, that's the risk you should document.
+
+So your deliverable doesn't have to be "here's how to fix everything"
+
+Your job can be much more valuable as:
+
+Approach → Benefit → Risk → Possible mitigation → What we need to prototype
+
+For example:
+
+Soccer — Automatic team assignment
+Benefit: Players can join immediately without a lobby.
+Risk: Teams can become unbalanced when players leave.
+Possible approach: Automatically assign new players to the team with fewer active players.
+What is lost: Players have less control over team identity.
+What is gained: The game remains playable without coordinated starts.
+Prototype test: Simulate 2–20 players joining/leaving and observe whether one team becomes unable to score.
