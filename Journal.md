@@ -1546,7 +1546,7 @@ I'd also test the three games against 5 player states
 
 This could become your actual testing framework:
 
-🟢 State 1 — Nobody is playing
+ State 1 — Nobody is playing
 
 What does the screen show?
 
@@ -1554,21 +1554,21 @@ This is important because your client specifically said the game is always there
 
 You need a screen that makes sense even when there are zero players.
 
-🟢 State 2 — One person joins
+ State 2 — One person joins
 
 Can they understand the game without anyone explaining it?
 
 This is probably your most important test.
 
-🟢 State 3 — Five people
+ State 3 — Five people
 
 Does collaboration/competition start naturally?
 
-🟢 State 4 — Someone leaves
+ State 4 — Someone leaves
 
 Does the game continue without interruption?
 
-🟢 State 5 — 20–30 people
+ State 5 — 20–30 people
 
 Does the game remain understandable?
 
@@ -1608,7 +1608,6 @@ Maze
 
 They see:
 
-🧍 → 💎
 
 Pretty obvious.
 
