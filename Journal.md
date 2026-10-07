@@ -1257,3 +1257,49 @@ This week, I felt like I moved from brainstorming ideas to testing what actually
 What stood out to me most was how strongly Jonathan's feedback shaped the direction. The idea of a game that works asynchronously, on a phone, and with simple rules became the lens through which I evaluated everything. Looking back, I can see that I was naturally drawn to more complicated systems at first, but the more I tested them against the real constraints, the more I gravitated toward concepts that were cleaner and more readable. The tower-building and pixel-art puzzle ideas felt promising because they had a clear visual goal and a simple action loop, while the soccer and real-time variants felt less suited to the project's goals.
 
 I also noticed that the strongest concepts were not necessarily the ones with the biggest novelty. Instead, they were the ideas that could be explained in a sentence and still invite participation. That was a useful realization for me. I think this week taught me that the design challenge is not only about making a fun interaction, but about making a social, public, and accessible one. A player should not need a full tutorial, a long explanation, or a shared group context to understand what they are supposed to do. If the game can invite someone instantly, then it has already done part of its job.
+
+
+
+
+
+
+
+
+
+Hubert lens of UI:
+
+jenga mixed with mosaic : 
+
+- idea shadow space or highlight to signale for where the block go. colour highlight or change when the block lock correctly 
+
+phone pop up : rule  and control 
+or we can have no pop up so a person can figure out themselves but we can have a (?) pop up 
+
+
+- No character option ( could just be hands )
+
+
+fayfay 
+
+
+
+
+new idea: a crane would be a good safe zone on the side that would dive a resting place where palyer scan be without all being on the unstaible tower. you can also add the hook wire crane taht can hold the new block. the construction concept would be a good approach. 
+
+visually teh soccer one the probelm is that if the match is playing, there is a chance that people think they couldnt join mid game as it is a generalised concept. 
+
+
+
+jega: maybe we have different material blocks. could 
+
+
+
+the view point : for the jenga. if it a close up view it on only build ups, but if we have a far away point, they could build up and sideways ( need to see how far we can do before its to ahrd to see )
+
+
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
