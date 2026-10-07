@@ -1288,9 +1288,9 @@ new idea: a crane would be a good safe zone on the side that would dive a restin
 
 visually teh soccer one the probelm is that if the match is playing, there is a chance that people think they couldnt join mid game as it is a generalised concept. 
 
+jenga : could have an extra additional with (the one that has put the most blocks down)
 
-
-jega: maybe we have different material blocks. could 
+jenga: maybe we have different material blocks. could 
 
 
 
