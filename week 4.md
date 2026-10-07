@@ -309,3 +309,11 @@ For each mechanic, document:
 **Approach -> Benefit -> Risk -> Possible mitigation -> Trade-off -> Prototype test**
 
 The aim is not to solve every design question now. It is to identify the uncertainty that matters most and make a small test that can answer it.
+
+## Conclusion: Week 4 reflection
+
+This week, I felt like I moved from brainstorming ideas to testing what actually fits a public, low-friction, drop-in experience. At the start, I was excited by the range of possibilities, but I quickly realized that the more interesting question was not which concept was the most elaborate, but which one would still make sense to a stranger walking up to the screen for five seconds. That shift in thinking was important for me. I started to see game design as less about inventing an impressive mechanic and more about designing a situation that someone can understand, join, and leave without feeling confused.
+
+What stood out to me most was how strongly Jonathan's feedback shaped the direction. The idea of a game that works asynchronously, on a phone, and with simple rules became the lens through which I evaluated everything. Looking back, I can see that I was naturally drawn to more complicated systems at first, but the more I tested them against the real constraints, the more I gravitated toward concepts that were cleaner and more readable. The tower-building and pixel-art puzzle ideas felt promising because they had a clear visual goal and a simple action loop, while the soccer and real-time variants felt less suited to the project's goals.
+
+I also noticed that the strongest concepts were not necessarily the ones with the biggest novelty. Instead, they were the ideas that could be explained in a sentence and still invite participation. That was a useful realization for me. I think this week taught me that the design challenge is not only about making a fun interaction, but about making a social, public, and accessible one. A player should not need a full tutorial, a long explanation, or a shared group context to understand what they are supposed to do. If the game can invite someone instantly, then it has already done part of its job.
