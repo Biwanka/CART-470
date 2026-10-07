@@ -1061,7 +1061,6 @@ Try one short instruction at a time, such as **"Place a block to build the tower
 
 - Can a first-time player identify the goal and make a useful move without verbal help?
 - What happens if the player leaves while holding a block?
-- Does turn-based placement still feel like Jenga?
 - Does the game remain understandable after a collapse and automatic reset?
 - Is the screen still readable with 20-30 players?
 
@@ -1119,7 +1118,6 @@ Keep the phone to movement or one push action. Put the score and goals on the pr
 
 - Can one player make progress without waiting for opponents or teammates?
 - Can players leave without stopping the game or making team assignment confusing?
-- Does a turn-based push still feel like soccer?
 - With many balls, can a visitor tell which team they are helping and where the balls are going?
 
 ## 3. Maze / collection

@@ -317,3 +317,12 @@ This week, I felt like I moved from brainstorming ideas to testing what actually
 What stood out to me most was how strongly Jonathan's feedback shaped the direction. The idea of a game that works asynchronously, on a phone, and with simple rules became the lens through which I evaluated everything. Looking back, I can see that I was naturally drawn to more complicated systems at first, but the more I tested them against the real constraints, the more I gravitated toward concepts that were cleaner and more readable. The tower-building and pixel-art puzzle ideas felt promising because they had a clear visual goal and a simple action loop, while the soccer and real-time variants felt less suited to the project's goals.
 
 I also noticed that the strongest concepts were not necessarily the ones with the biggest novelty. Instead, they were the ideas that could be explained in a sentence and still invite participation. That was a useful realization for me. I think this week taught me that the design challenge is not only about making a fun interaction, but about making a social, public, and accessible one. A player should not need a full tutorial, a long explanation, or a shared group context to understand what they are supposed to do. If the game can invite someone instantly, then it has already done part of its job.
+
+
+////
+
+the maze game, are we doing multi level or map and if so how do we show when a map can be done: timer ? or after all visible gem disapeared ? 
+needs to be thought about as if a player join towards the end of the timer they could never gather a big score. however a visible timer identify the end of something so the player may realize that they can get familiar with the control and then 
+
+
+/////
