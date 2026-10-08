@@ -1286,7 +1286,7 @@ fayfay
 
 new idea: a crane would be a good safe zone on the side that would dive a resting place where palyer scan be without all being on the unstaible tower. you can also add the hook wire crane taht can hold the new block. the construction concept would be a good approach. 
 
-visually teh soccer one the probelm is that if the match is playing, there is a chance that people think they couldnt join mid game as it is a generalised concept. 
+visually the soccer one the probelm is that if the match is playing, there is a chance that people think they couldnt join mid game as it is a generalised concept. 
 
 jenga : could have an extra additional with (the one that has put the most blocks down)
 
@@ -1303,3 +1303,5 @@ the view point : for the jenga. if it a close up view it on only build ups, but 
 ![alt text](image-2.png)
 
 ![alt text](image-3.png)
+
+![alt text](image-4.png)
