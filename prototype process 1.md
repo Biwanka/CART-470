@@ -314,8 +314,3 @@ The goal is not to resolve every technical or design question. It is to identify
 
 ## Visual inspiration noted in the original draft
 
-The draft included the following domains as image references. The exact page URLs were not recorded:
-
-- Construction site: `about.daangn.com`
-- Soccer: `rawg.io`
-- Maze and mosaic: `thinkygames.com`
