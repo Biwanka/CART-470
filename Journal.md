@@ -1658,7 +1658,7 @@ This makes the visual prototype particularly important. The screen must communic
 
 Rather than focusing only on the appearance of the three concepts, I therefore approached the visuals as a way to test the game design itself. The placement of the characters, objects, objectives, and interface elements can influence how players understand the rules. By developing and comparing different screen layouts, we can identify possible issues before the next group of students begins implementation.
 
-## 2. Construction Tower Game: Exploring Different Approaches
+## 2. Construction Jenga Tower Game: Exploring Different Approaches
 
 One of the concepts I continued developing was the collaborative construction tower game. The idea is for players to control small construction workers who contribute to building a tower out of colourful blocks. The main objective is to build the tower as high as possible without making it unstable enough to collapse. The concept takes inspiration from Jenga but adapts it into a multiplayer experience where many players can contribute to the same structure.
 
@@ -1676,6 +1676,11 @@ These differences are important because the game needs to support a large number
 
 By visualising these alternatives, we can give the client a clearer understanding of the possible directions for the construction game. We can also identify which mechanics would need to be simplified or tested before the concept could be developed further.
 
+![alt text](Jenga_4.png)
+![alt text](Jenga_3.png)
+![alt text](Jenga_2.png)
+
+
 ## 3. Free-for-All Soccer Game
 
 I also continued developing the visual prototype for the soccer concept. Unlike a traditional soccer game, this version is not based on two teams competing against one another. Instead, it uses a free-for-all format in which individual players compete to score goals, with an NPC goalkeeper defending the goal. The possibility of having multiple balls in play also introduces another way to make the game more chaotic and interactive.
@@ -1689,6 +1694,8 @@ The use of multiple balls could make the game more dynamic, but it also introduc
 The concept is also relevant to the project's asynchronous requirements. Since visitors can arrive and leave at any moment, the game cannot rely on a fixed number of players or require everyone to be present for a round to function. The rules and scoring system need to remain understandable and adaptable as the number of participants changes.
 
 Although this concept has different mechanics from the construction game, the visual challenge is similar: the main objective should be recognisable, the player's actions should produce visible feedback, and the interface should remain simple enough to understand in a public exhibition environment.
+
+![alt text](Soccer_2.png)
 
 ## 4. Maze and Mosaic Game
 
@@ -1705,6 +1712,8 @@ The maze and mosaic concept therefore presents a different type of challenge fro
 For the prototype, I need to determine whether the screen itself communicates this relationship clearly enough. The central mosaic should remain visually prominent, while the maze must provide enough information for players to identify possible routes and useful resources. If players need to constantly consult written instructions, the interface may be too complicated for the intended exhibition setting.
 
 This concept also raises questions about how progress should be communicated. Since multiple players contribute to the same picture, it should be possible to see the mosaic becoming more complete as the game continues. Visible progress can help players understand that their actions matter, even if they only participate for a short period.
+
+![alt text](Maze_Mosaic_3.png) 
 
 ## 5. Adding Leaderboards to All Three Visual Prototypes
 
