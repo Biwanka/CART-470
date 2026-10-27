@@ -1638,3 +1638,98 @@ The goal is not to resolve every technical or design question. It is to identify
 ![alt text](Retronator.jpg)
 ![alt text](<The Minotaur's Maze _ Dyson Logos.png>)
 ![alt text](<Lord Arse! 🕹️ (@Lord_Arse) on X.jpg>)
+
+
+
+
+
+
+# Week 6 – Continued Development of Game Prototypes
+
+## 1. Continuing the Visual Prototypes
+
+This week, I continued working on the visual prototypes for our CART 415 project. Our team's objective is to develop and de-risk several game concepts before passing the project on to the students who will continue its development next semester. Instead of building a complete game, we are focusing on creating a functional and understandable prototype that communicates the gameplay, identifies potential problems, and helps determine which ideas are realistic to develop within the available time and resources.
+
+Following our previous discussions and meetings with the client, we decided to continue developing three different game concepts: a collaborative construction tower game inspired by Jenga, a free-for-all soccer game, and a maze game combined with a mosaic-building mechanic. Each concept offers a different type of player interaction, which allows us to explore different possibilities for an asynchronous multiplayer experience.
+
+My main responsibility this week was to continue developing the visual presentation of these concepts. I focused on what players would see when they approach the projected screen, how the different elements communicate the objective, and whether the visuals make the rules understandable without requiring extensive explanations. Since the game is intended to be played in an exhibition environment, visitors should be able to scan a QR code, connect through their phones, and begin participating relatively quickly. There should not be a complicated menu or a long tutorial interrupting the experience.
+
+This makes the visual prototype particularly important. The screen must communicate enough information for someone who has never played the game before to understand what is happening and what they can do. At the same time, the interface needs to remain simple because several people may be playing simultaneously. Too much information, too many visual elements, or unclear interactions could make the game difficult to understand, especially when 20 to 30 players are present.
+
+Rather than focusing only on the appearance of the three concepts, I therefore approached the visuals as a way to test the game design itself. The placement of the characters, objects, objectives, and interface elements can influence how players understand the rules. By developing and comparing different screen layouts, we can identify possible issues before the next group of students begins implementation.
+
+## 2. Construction Tower Game: Exploring Different Approaches
+
+One of the concepts I continued developing was the collaborative construction tower game. The idea is for players to control small construction workers who contribute to building a tower out of colourful blocks. The main objective is to build the tower as high as possible without making it unstable enough to collapse. The concept takes inspiration from Jenga but adapts it into a multiplayer experience where many players can contribute to the same structure.
+
+I continued refining the visual composition of the construction site, particularly the relationship between the workers, the tower, and the surrounding environment. The characters need to be visible enough for players to recognise their movements, while the blocks need to remain the main visual focus. As the tower grows, the camera may need to move upward to follow the construction. This creates a visual challenge because the screen must communicate the height of the tower while keeping the characters and their possible interactions visible.
+
+I explored how the tower could extend beyond the initial ground-level view. As the building becomes taller, the camera could gradually move upward, eventually removing the ground from view and showing only the growing structure and the workers. This helps communicate the sense of progress and gives the game a clear visual change as more blocks are added. However, it also raises questions about how players will navigate the environment when the tower extends beyond the original screen boundaries.
+
+Another important aspect of this concept is how players reach different heights and access the blocks they need. During our discussions, two possible approaches emerged. The first uses metal scaffolding structures on either side of the tower. These structures would provide resting platforms that players could use when the tower becomes too tall to access easily from the ground. The second approach removes the scaffolding and instead uses small platforms suspended from crane hooks. In this version, players would need to jump onto the suspended platforms to reach blocks and move around the construction area.
+
+I began exploring the visual direction of these alternatives so that we can present them to the client and compare their potential advantages and limitations. The purpose is not to commit to one solution immediately, but to understand how each approach affects the gameplay and the complexity of development.
+
+The scaffolding version could make movement more accessible because players would have fixed platforms to use as resting points. However, it could also reduce the challenge if reaching different heights becomes too easy. The suspended-platform version introduces more skill-based movement and makes the cranes more directly connected to the gameplay. On the other hand, it creates additional risks involving jumping, collisions, falling, and platform accessibility.
+
+These differences are important because the game needs to support a large number of players who may join and leave at any time. If the movement mechanics are too complicated, they could become difficult to implement or frustrating for new players. For example, a player who disconnects while jumping or falls from a platform should not create a problem that interrupts the experience for everyone else.
+
+By visualising these alternatives, we can give the client a clearer understanding of the possible directions for the construction game. We can also identify which mechanics would need to be simplified or tested before the concept could be developed further.
+
+## 3. Free-for-All Soccer Game
+
+I also continued developing the visual prototype for the soccer concept. Unlike a traditional soccer game, this version is not based on two teams competing against one another. Instead, it uses a free-for-all format in which individual players compete to score goals, with an NPC goalkeeper defending the goal. The possibility of having multiple balls in play also introduces another way to make the game more chaotic and interactive.
+
+From a visual perspective, the challenge is to communicate the objective immediately. Players should be able to recognise the ball, the goal, the goalkeeper, and the other players without needing a detailed explanation. The projected screen may contain many characters at once, so the visual hierarchy needs to remain clear even when several players are moving and interacting simultaneously.
+
+The free-for-all structure also creates questions about how players should be rewarded. If everyone is competing individually, the game needs a way to show who is performing well and how their performance is measured. At the same time, the experience should not become so competitive that players who join later feel they cannot participate meaningfully.
+
+The use of multiple balls could make the game more dynamic, but it also introduces a risk of visual confusion. If too many objects move across the screen, players may struggle to follow the action or understand which ball they should pursue. This is something that the prototype will need to help us evaluate. We need to determine how many balls can be present before the screen becomes too crowded and whether visual distinctions or other interface cues would help players follow the gameplay.
+
+The concept is also relevant to the project's asynchronous requirements. Since visitors can arrive and leave at any moment, the game cannot rely on a fixed number of players or require everyone to be present for a round to function. The rules and scoring system need to remain understandable and adaptable as the number of participants changes.
+
+Although this concept has different mechanics from the construction game, the visual challenge is similar: the main objective should be recognisable, the player's actions should produce visible feedback, and the interface should remain simple enough to understand in a public exhibition environment.
+
+## 4. Maze and Mosaic Game
+
+The third concept combines a maze with a collaborative mosaic-building mechanic. Players navigate through a maze to collect coloured blocks, which they then use to reproduce an image in a large central grid. The goal is to complete the picture by placing the correct colours in the appropriate positions.
+
+I continued refining the visual prototype to make the relationship between the maze and the mosaic clearer. The maze provides the space in which players move and collect resources, while the central grid represents the shared objective. The reference image indicates what the completed mosaic should look like, allowing players to compare the current progress with the intended result.
+
+One of the main design considerations is the distinction between collectible blocks in the maze and tiles that have already been placed in the mosaic. These elements may use similar colours, but they represent different stages of the gameplay. If they look too similar, players may not understand which objects they can collect and which ones represent completed work. The visuals therefore need to establish a consistent distinction between resources, empty spaces, and completed tiles.
+
+The order in which players collect and place the blocks is another important consideration. We have discussed the possibility that players cannot walk over coloured tiles once they have been placed. If this rule is retained, players will need to think about where they move and which tiles they complete, because their actions could affect the paths available to other players. This could create interesting cooperation and planning, but it could also make the rules harder to understand.
+
+The maze and mosaic concept therefore presents a different type of challenge from the other two games. The construction game focuses on building upward, while soccer focuses on movement and competition. The maze requires players to understand both navigation and the relationship between collecting resources and completing a shared objective.
+
+For the prototype, I need to determine whether the screen itself communicates this relationship clearly enough. The central mosaic should remain visually prominent, while the maze must provide enough information for players to identify possible routes and useful resources. If players need to constantly consult written instructions, the interface may be too complicated for the intended exhibition setting.
+
+This concept also raises questions about how progress should be communicated. Since multiple players contribute to the same picture, it should be possible to see the mosaic becoming more complete as the game continues. Visible progress can help players understand that their actions matter, even if they only participate for a short period.
+
+## 5. Adding Leaderboards to All Three Visual Prototypes
+
+In addition to continuing the development of the three game screens, I added leaderboards to all of the visuals. This was an important addition because the client expressed interest in having a leaderboard that remains visible during gameplay. The leaderboard is intended to communicate player performance and give participants a reason to engage with the game and potentially return to it.
+
+Adding the leaderboards also allowed me to consider how scores should be presented without overwhelming the main gameplay area. Since the game will be projected in a public space, the interface needs to remain readable from a distance. A leaderboard that occupies too much screen space could distract from the main action, while one that is too small might be difficult for visitors to read.
+
+The three concepts also require different approaches to scoring. In the construction game, the leaderboard could reward players for contributing blocks or helping the tower reach new heights. In the soccer game, points could be awarded for scoring goals. In the maze and mosaic game, players could receive points for collecting or correctly placing blocks. These are possible scoring approaches rather than final decisions, but they illustrate how the leaderboard needs to relate directly to the actions available in each game.
+
+A major consideration is how the leaderboard will function when players join and leave at different times. Since the game is intended to remain active rather than restarting whenever a group changes, we need to decide whether scores persist after a player disconnects, whether players can return to their previous scores, and how new participants are introduced. These decisions affect both the interface and the underlying game logic.
+
+For example, a persistent leaderboard could encourage visitors to return and try to improve their scores. However, it could also disadvantage new players if the same participants remain at the top for a long period. A leaderboard based on a short rolling period or a recent contribution could make the experience more accessible, but it would introduce additional rules and implementation requirements.
+
+The purpose of adding the leaderboards at this stage is not to finalise every scoring rule. Instead, it is to make the scoring system visible in the prototypes so that we can evaluate its place in the overall experience and discuss the remaining questions with the client.
+
+## 6. Reflection and Next Steps
+
+Overall, this week's work focused on continuing the visual development of the three game concepts and making their objectives, interactions, and scoring systems easier to communicate. Rather than treating the prototypes as finished designs, I used them to explore possible approaches and identify decisions that need further discussion.
+
+The construction game demonstrated how changing a single design element, such as scaffolding versus suspended platforms, can significantly affect movement, accessibility, and development complexity. The soccer game highlighted the importance of maintaining visual clarity when many characters and moving objects share the screen. The maze and mosaic game showed how the arrangement of the environment and the use of colour can communicate a more complex objective without relying on extensive written instructions.
+
+Adding leaderboards to all three visuals also helped connect the gameplay concepts to the project's broader goal of creating a persistent multiplayer experience. Scores can provide feedback and motivation, but they introduce questions about fairness, persistence, and what happens when players leave and return. These questions need to be considered early because they could affect the technical structure of the game.
+
+My next step is to gather feedback on whether the visuals are understandable to people who have not previously discussed the concepts with our team. I want to determine whether someone can identify the objective, understand the basic player interactions, and recognise the purpose of the main interface elements simply by looking at the prototype. This will help us distinguish between elements that communicate the rules effectively and those that need to be clarified.
+
+I also want to continue comparing the two movement approaches for the construction game so that the client can assess their respective risks. More generally, we need to identify which mechanics are essential to each concept and which could be simplified to make the game more realistic for the next semester's students to develop.
+
+This process reinforces the importance of prototyping as a way to reduce uncertainty before implementation. The objective is not simply to create appealing visuals, but to establish a clear and achievable game design. By identifying possible misunderstandings, testing different approaches, and making the scoring systems visible, we can provide the next group of students with a stronger foundation for development while preserving the flexibility needed to make decisions based on feedback.
