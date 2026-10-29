@@ -1742,3 +1742,27 @@ My next step is to gather feedback on whether the visuals are understandable to 
 I also want to continue comparing the two movement approaches for the construction game so that the client can assess their respective risks. More generally, we need to identify which mechanics are essential to each concept and which could be simplified to make the game more realistic for the next semester's students to develop.
 
 This process reinforces the importance of prototyping as a way to reduce uncertainty before implementation. The objective is not simply to create appealing visuals, but to establish a clear and achievable game design. By identifying possible misunderstandings, testing different approaches, and making the scoring systems visible, we can provide the next group of students with a stronger foundation for development while preserving the flexibility needed to make decisions based on feedback.
+
+
+
+
+after meeting 
+
+
+is it mining theme or futureristic 
+art visuel theme approach 
+like 3 concept art 
+
+general look and feel 
+(avators)
+is it to small, can we distic between characters 
+
+
+art visual 
+is it cozy pixel art or art direction 
+
+make a prototype at least one player dig, push a plock and place it 
+
+and then second player 
+
+no limits 
