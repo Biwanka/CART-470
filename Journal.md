@@ -1744,7 +1744,16 @@ I also want to continue comparing the two movement approaches for the constructi
 This process reinforces the importance of prototyping as a way to reduce uncertainty before implementation. The objective is not simply to create appealing visuals, but to establish a clear and achievable game design. By identifying possible misunderstandings, testing different approaches, and making the scoring systems visible, we can provide the next group of students with a stronger foundation for development while preserving the flexibility needed to make decisions based on feedback.
 
 
+# Week 7 Weekly Journal
+This week, our group met with our client, Jonathan Lessard, to present and discuss our three initial game concepts. During the meeting, we finalized our direction and decided to move forward with the Mosaic game, while making an important change to its original mechanics.
 
+Instead of having a predefined maze for players to navigate, we decided to create an environment made of dirt that players can dig through to create their own paths. The objective is to collect coloured blocks hidden throughout the environment and bring them to the central mosaic, where everyone contributes to recreating a reference image. This direction was established through our discussion with Jonathan and his feedback during the meeting.
+
+Following this decision, we now have a clearer vision of the gameplay experience we want to develop. The digging mechanic gives players more freedom to explore and creates opportunities for interaction, while the shared mosaic provides a collective objective that everyone can contribute to.
+
+I also worked on organizing and refining our presentation content, clarifying the client's expectations, our project focus, and the expected outcome. This helped connect our chosen concept to the original project requirements, especially the need for simple mechanics, quick onboarding, and an experience that can accommodate many players joining and leaving.
+
+Moving forward, our focus will be on developing the chosen concept further, particularly the digging, block collection, and mosaic-building mechanics. We will also need to consider how to communicate the objective clearly and make sure that individual player actions contribute meaningfully to the shared experience.
 
 after meeting 
 
