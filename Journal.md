@@ -1745,17 +1745,8 @@ This process reinforces the importance of prototyping as a way to reduce uncerta
 
 
 # Week 7 Weekly Journal
-This week, our group met with our client, Jonathan Lessard, to present and discuss our three initial game concepts. During the meeting, we finalized our direction and decided to move forward with the Mosaic game, while making an important change to its original mechanics.
 
-Instead of having a predefined maze for players to navigate, we decided to create an environment made of dirt that players can dig through to create their own paths. The objective is to collect coloured blocks hidden throughout the environment and bring them to the central mosaic, where everyone contributes to recreating a reference image. This direction was established through our discussion with Jonathan and his feedback during the meeting.
-
-Following this decision, we now have a clearer vision of the gameplay experience we want to develop. The digging mechanic gives players more freedom to explore and creates opportunities for interaction, while the shared mosaic provides a collective objective that everyone can contribute to.
-
-I also worked on organizing and refining our presentation content, clarifying the client's expectations, our project focus, and the expected outcome. This helped connect our chosen concept to the original project requirements, especially the need for simple mechanics, quick onboarding, and an experience that can accommodate many players joining and leaving.
-
-Moving forward, our focus will be on developing the chosen concept further, particularly the digging, block collection, and mosaic-building mechanics. We will also need to consider how to communicate the objective clearly and make sure that individual player actions contribute meaningfully to the shared experience.
-
-after meeting 
+#### after meeting 
 
 
 is it mining theme or futureristic 
@@ -1775,3 +1766,87 @@ make a prototype at least one player dig, push a plock and place it
 and then second player 
 
 no limits 
+
+
+#### thoughts
+This week, our group met with our client, Jonathan Lessard, to present and discuss our three initial game concepts. During the meeting, we finalized our direction and decided to move forward with the Mosaic game, while making an important change to its original mechanics.
+
+Instead of having a predefined maze for players to navigate, we decided to create an environment made of dirt that players can dig through to create their own paths. The objective is to collect coloured blocks hidden throughout the environment and bring them to the central mosaic, where everyone contributes to recreating a reference image. This direction was established through our discussion with Jonathan and his feedback during the meeting.
+
+Following this decision, we now have a clearer vision of the gameplay experience we want to develop. The digging mechanic gives players more freedom to explore and creates opportunities for interaction, while the shared mosaic provides a collective objective that everyone can contribute to.
+
+I also worked on organizing and refining our presentation content, clarifying the client's expectations, our project focus, and the expected outcome. This helped connect our chosen concept to the original project requirements, especially the need for simple mechanics, quick onboarding, and an experience that can accommodate many players joining and leaving.
+
+Moving forward, our focus will be on developing the chosen concept further, particularly the digging, block collection, and mosaic-building mechanics. We will also need to consider how to communicate the objective clearly and make sure that individual player actions contribute meaningfully to the shared experience.
+
+##### presentation preperations 
+CART 470 
+1. Who is your client?
+Client: Jonathan Lessard (CART)
+Jonathan Lessard wants to create a large-crowd multiplayer game for the CART 415 Winter studio, to be presented at the end-of-year exhibition.
+Visitors will scan a QR code to connect their phones and control the avatars on a shared projected screen.
+Key point: Our client is interested in both the game idea and the practical process of developing it with a large team within a limited production timeline.
+2. Project Background / Context
+Our role: Research, develop, and prototype game concepts to identify potential challenges and provide a strong foundation for next semester's students.
+The project explores how a large team can collaboratively develop a simple, persistent, asynchronous multiplayer game.
+The game will be presented in an exhibition environment using a projector or large screen.
+Visitors will scan a QR code to access a webpage on their phones, which will become their controllers. Their characters will then appear on the projected screen.
+The experience should support approximately 20–30 players while allowing visitors to join and leave at any time. But also be playable with just 1 person
+The game should remain active without relying on a host.
+Our task is to explore the game mechanics, visual design, rules, scoring, and technical challenges before handing the project over to next semester's students.
+He wants us to explore possible game concepts, identify risks early, and establish a clear direction before the next group of CART 415 students begins development.
+Rather than delivering a finished game, our responsibility is to create a prototype and foundation the next class can realistically build on.
+Main design requirements:
+Simple and immediately understandable gameplay.
+Persistent play that accommodates players joining and leaving.
+Multiplayer interactions that remain manageable with many participants.
+A clear objective and visible feedback for player actions.
+A leaderboard that communicates scores and progress.
+A feasible scope for the next class to implement.
+
+3. Initial Research
+Our initial research focused on identifying suitable game structures and understanding what makes an asynchronous, exhibition-based multiplayer experience work.
+Game references: We discussed games such as Baba Is You and Sokoban as references for clear rules, spatial problem-solving, and object interactions.
+We looked up any multiplayer games where you connect by phone: 
+Game objectives and feedback: We asked what players are trying to achieve, how they know they have succeeded, and how their actions contribute to a score or shared objective.
+Visual communication: We considered communicating the rules directly through the projected screen rather than using a large menu or lengthy tutorial.
+Technical feasibility: We discussed the need to identify potential problems early so the next group can focus on implementation instead of redesigning the entire game.
+Our early brainstorming produced several possible mechanics, including collecting objects, colouring tiles, matching a design, pushing blocks, building a tower, and competing in a soccer game.
+The client encouraged us to explore different approaches
+4. Project Development Process
+We had ideation and the Prototype
+Ideation:
+The first 2 or 3 weeks were ideation
+We each came up with multiple ideas, narrowed down to 3 
+After we all looked at each game through a different de-risking lens 
+Then we made different types of prototypes for each; then we finalized and combined all for a presentation-ready prototype for Jonathan 
+
+A. Construction Jenga Tower
+B. Free-for-All Soccer
+C. Maze and Mosaic
+
+5.  Challenges
+No issues, but one of our biggest challenges has been balancing interesting gameplay with the project's technical and production limitations.
+1. Supporting players who join and leave
+The game must work without requiring everyone to start or finish together.
+We need to determine what happens to a character when its player disconnects.
+We also need to decide whether individual scores persist, how players return, and whether their absence affects the remaining participants.
+Any solution must avoid interrupting the game for everyone else.
+2. Keeping the rules simple
+Visitors should understand the objective without needing a long tutorial.
+Too many mechanics can make the game hard to learn, especially when several players are active at once.
+Our visual prototypes need to communicate what players can do, what they should aim for, and what happens after an action.
+3. Making the screen readable with 20–30 players
+4. Why would people want to play or stay
+
+
+6. Where Are We Now?
+We had the meeting with the big boss
+Out of the three, he took the maze mosaic
+Through the meeting, we made some changes in the game
+
+7. Where Are We Going?
+All the elements are in place; now we focus on two things
+The artistic visuals for the game
+The gameplay mechanics/testing and de-risking
+Overall, we're focusing our efforts on the visuals and mechanics of the game for the upcoming 
