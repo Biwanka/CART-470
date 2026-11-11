@@ -2070,3 +2070,15 @@ Overall, this week showed that the strength of the project depends just as much 
 The strongest overall concept is The World Inside a Painting, because it naturally connects the underground digging mechanic with the mosaic objective and gives the project a distinctive artistic identity. For implementation, I would pair it with a simple but expressive style such as flat vector art or a soft cartoon look, which would keep the game readable, approachable, and feasible for a student team.
 
 In the end, the goal is not simply to create a pretty game. It is to design a visual world that supports the interaction, strengthens the mood, and makes the player immediately understand the experience. This exploration provides a strong foundation for choosing a final direction that feels both creative and practical.
+
+https://pin.it/49xzSQGmc 
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
