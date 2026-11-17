@@ -2082,3 +2082,67 @@ https://pin.it/49xzSQGmc
 ![alt text](image-12.png)
 ![alt text](image-13.png)
 ![alt text](image-14.png)
+
+
+#WEEK 9 Journal : 
+
+1. Seasons – an evolving world
+Concept: The game takes place in a world where the ground represents the four seasons. Players dig through the terrain to uncover seasonal colours and objects, then use them to complete a central mosaic.
+- Spring: green, pink, flowers, leaves.
+- Summer: yellow, orange, bright greens, sunshine.
+- Autumn: orange, red, brown, falling leaves.
+- Winter: light blue, white, icy blue, snowflakes.
+How it could connect to the gameplay:
+- Players dig through seasonal layers or different areas of the ground.
+- They collect coloured pieces inspired by each season.
+- The central mosaic could represent a seasonal image, such as a tree changing through the year.
+- The environment could gradually change as players contribute pieces.
+Drawing styles that could work:
+- Cozy pixel art
+- Hand-drawn illustration
+- Storybook illustration
+- Flat vector cartoon
+Advantages
+- Four distinct colour palettes make it easy to create visual variety.
+- Familiar and accessible theme.
+- Lots of possible objects, shapes and characters.
+- Could create a satisfying visual transformation.
+Challenges
+- The four seasons need to be visually distinct without making the game feel like four separate environments.
+- We need to decide whether players explore all seasons or whether the game focuses on one season at a time.
+2. Ice Cream – a colourful dessert world
+Concept: The game takes place in a playful world made of ice cream, sweets and desserts. Players dig through different flavours and collect colourful ingredients to complete a giant ice cream-inspired mosaic.
+
+Possible flavours and colours:
+- Strawberry: pink and red
+- Chocolate: brown and cream
+- Mint: green and white
+- Blueberry: blue and purple
+- Vanilla: yellow and beige
+How it could connect to the gameplay:
+- Players dig through ice cream-like terrain.
+- Different coloured blocks represent flavours, toppings or ingredients.
+- Characters could be little ice cream creatures, cones or dessert-inspired characters.
+- The central mosaic could be an ice cream cone, sundae, cake or another dessert image.
+Drawing styles that could work:
+- Cozy game / cute cartoon
+- Pixel art
+- Flat vector illustration
+- Paper cut-out collage
+Advantages
+- Very colourful and playful, which could stand out on a large projection.
+- Easy to create recognizable characters with different silhouettes.
+- Flavours naturally give us different colours for the blocks.
+- Simple shapes could make the art achievable for next semester's students.
+Challenges
+- We need to make sure the ground and tunnels remain readable.
+- Too many pastel colours could reduce contrast, especially on a projector.
+- The theme could become visually repetitive if everything looks like ice cream.
+Comparing the two directions
+Criteria	Seasons	Ice cream
+Visual identity	Natural, cozy, changing	Playful, colourful, whimsical
+Colour palette	Four seasonal palettes	Bright flavour-based palette
+Characters	Animals, gardeners, seasonal creatures	Ice cream creatures, dessert characters
+Digging environment	Soil, snow, leaves, roots	Ice cream, chocolate, candy
+Mosaic possibilities	Trees, flowers, landscapes	Desserts, cones, sweets
+Overall feeling	Cozy and exploratory	Fun and lighthearted
