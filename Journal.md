@@ -2157,3 +2157,111 @@ Characters	Animals, gardeners, seasonal creatures	Ice cream creatures, dessert c
 Digging environment	Soil, snow, leaves, roots	Ice cream, chocolate, candy
 Mosaic possibilities	Trees, flowers, landscapes	Desserts, cones, sweets
 Overall feeling	Cozy and exploratory	Fun and lighthearted
+
+![alt text](<Cozy Autumn Maple Leaf Puzzle Board.png>)
+![alt text](<Pixel Strawberry Ice Cream Adventure.png>)
+![alt text](image-15.png)
+
+
+
+### New Visual Theme Idea – Picnic
+
+**Main concept:**
+- The game takes place on a large picnic blanket.
+- Use a red-and-white or yellow-and-white checkered pattern for the ground.
+- Players control little ants that dig tunnels underneath the blanket.
+- Ants collect food pieces and bring them back to contribute to the central mosaic.
+
+**Environment and decorations:**
+- Picnic blanket as the main playable surface.
+- Picnic basket, strawberries, sandwiches, cheese, flowers and crumbs as decorations.
+- Food-themed blocks as the collectible items.
+- A decorative picnic-themed border to clearly define the playable area.
+
+**Character design:**
+- Small, cute ant characters.
+- Different hats, scarves, backpacks and antenna shapes to distinguish players.
+- Simple 2D or pixel-art designs to keep characters recognizable.
+
+**Collectible blocks:**
+- Red blocks inspired by strawberries.
+- Yellow blocks inspired by cheese.
+- Green blocks inspired by lettuce.
+- Brown blocks inspired by bread.
+- Pink blocks inspired by watermelon.
+
+**Possible drawing style:**
+- Cozy pixel art or cute illustrated style.
+- Bright, playful colours.
+- Simple shapes and textures that are easy to reproduce.
+
+**Advantages:**
+- The ant characters naturally connect to the digging mechanic.
+- The picnic blanket creates an interesting visual grid.
+- Food provides many possibilities for colourful collectible blocks.
+- The theme is playful, recognizable and different from the previous ideas.
+- The environment can be created using simple 2D assets.
+
+**Things to consider:**
+- Make sure the blanket pattern does not make the playable area visually confusing.
+- Keep the food decorations around the edges so they do not interfere with gameplay.
+- Make the ants visually distinct, especially when many players are on screen.
+- Ensure the digging paths remain easy to see against the blanket texture.
+
+**Next steps:**
+- Create a rough mockup of the picnic blanket game board.
+- Experiment with different blanket patterns and border designs.
+- Sketch a few ant characters with different accessories.
+- Explore how food-themed blocks could form the central mosaic.
+
+### Visual Development – Digging Blocks and Underground Floor
+
+I continued exploring how the digging mechanic could be represented visually in our three possible themes: ice cream, autumn, and picnic. I wanted to find a way to make the blocks players dig through look different from the floor they reveal underneath.
+
+**1. Ice Cream Theme**
+- Diggable blocks could look like individual waffle-cone squares, with a crosshatch texture.
+- Different shades of golden brown could add variation.
+- The floor underneath could look like soft ice cream, using pastel colours such as pink, vanilla, and mint.
+- Small sprinkles or chocolate chips could add detail.
+
+**2. Autumn Theme**
+- Diggable blocks could be covered with fallen autumn leaves in orange, red, and yellow.
+- Some blocks could include small acorns, twigs, or mushrooms.
+- The floor underneath could be dark brown forest soil, with small roots, stones, and patches of moss.
+- This would create the feeling of digging beneath a forest floor.
+
+**3. Picnic Theme**
+- Diggable blocks could be individual squares of a red-and-white checkered picnic blanket.
+- A slight fabric texture and stitching could make the blocks feel more realistic while keeping a simple style.
+- The floor underneath could reveal green grass and dark brown soil.
+- Small flowers, clovers, roots, and pebbles could decorate the revealed surface.
+
+**Digging States:**
+I also considered how to visually communicate the digging process:
+- **Undug:** The original block texture is visible.
+- **Being dug:** Cracks, crumbs, or small particles show that a player is interacting with the block.
+- **Dug:** The block disappears, revealing the floor underneath and creating a tunnel.
+
+**Design considerations:**
+- The difference between the blocks and the floor needs to be clear so players can easily understand where they can dig.
+- Tunnel paths should remain visible, especially when many players are exploring the board.
+- The textures should stay simple and readable from a distance on the exhibition screen.
+- Each theme should have its own visual identity while keeping the same basic digging mechanics.
+
+**Next steps:**
+- Experiment with different block and floor textures for each theme.
+- Create small visual tests showing the undug, digging, and dug states.
+- Consider how the different textures will look together in the full game board.
+- Keep the designs simple enough that next semester's students can reproduce and implement them.
+
+
+
+
+
+#### concept/theme 
+
+- Ice cream: waffle-cone blocks → creamy pastel floor.
+
+- Autumn: leaf-covered blocks → dark forest soil.
+
+- Picnic: gingham blanket blocks → grass and earth.
