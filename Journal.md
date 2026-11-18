@@ -2085,6 +2085,17 @@ https://pin.it/49xzSQGmc
 
 
 #WEEK 9 Journal : 
+This week, I focused on exploring the visual direction of our game. After discussing different possibilities as a group, we narrowed our ideas down to two possible themes: ice cream and seasons. I wanted to see how each theme could influence the appearance of the game while keeping the original gameplay mechanics clear and understandable.
+
+I started by developing the ice cream theme. I experimented with using a waffle-cone texture for the ground, with the idea that players would dig through it to find and collect coloured blocks. I also explored the possibility of having small ice cream creatures as player characters. To make the game board feel more complete, I created a mockup with a decorative border made from different flavour blocks, along with ice cream scoops, cherries, strawberries, and other dessert elements. I wanted the border to serve both as decoration and as a clear visual boundary between the playable area and the outside of the board.
+
+I then explored an autumn version of the same layout. I kept the top-down perspective and the general structure but replaced the ice cream elements with autumn colours and decorations. The border uses orange, red, yellow, and cream blocks, while pumpkins, mushrooms, and falling leaves help establish the environment. I also experimented with the idea of using small woodland creatures, such as a fox, as player characters.
+
+Comparing these two mockups helped me understand how much the theme can change the personality of the game without changing its core mechanics. Both directions offer opportunities for colourful collectible blocks, recognizable characters, and a decorative environment. I also think that having a consistent border is important because it makes the playable space easier to recognize, especially when the game is projected on a large screen.
+
+Next, I want to continue refining these visual directions and consider which one would be the most suitable for the project. I also want to explore how the digging paths, collectible blocks, and player characters can fit naturally into the chosen theme while keeping the visuals simple enough for a large multiplayer game.
+
+#### notes during making
 
 1. Seasons – an evolving world
 Concept: The game takes place in a world where the ground represents the four seasons. Players dig through the terrain to uncover seasonal colours and objects, then use them to complete a central mosaic.
