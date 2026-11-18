@@ -2084,7 +2084,7 @@ https://pin.it/49xzSQGmc
 ![alt text](image-14.png)
 
 
-#WEEK 9 Journal : 
+# WEEK 9 Journal : 
 This week, I focused on exploring the visual direction of our game. After discussing different possibilities as a group, we narrowed our ideas down to two possible themes: ice cream and seasons. I wanted to see how each theme could influence the appearance of the game while keeping the original gameplay mechanics clear and understandable.
 
 I started by developing the ice cream theme. I experimented with using a waffle-cone texture for the ground, with the idea that players would dig through it to find and collect coloured blocks. I also explored the possibility of having small ice cream creatures as player characters. To make the game board feel more complete, I created a mockup with a decorative border made from different flavour blocks, along with ice cream scoops, cherries, strawberries, and other dessert elements. I wanted the border to serve both as decoration and as a clear visual boundary between the playable area and the outside of the board.
