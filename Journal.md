@@ -2265,3 +2265,54 @@ I also considered how to visually communicate the digging process:
 - Autumn: leaf-covered blocks → dark forest soil.
 
 - Picnic: gingham blanket blocks → grass and earth.
+
+
+# Week 10 Journal – Visual Development: Seasonal Theme
+
+This week, I continued developing the visual direction for the seasonal theme, focusing on the autumn and winter environments and refining the appearance of the diggable tiles. I wanted to make the environments feel more visually distinct while keeping a consistent overall style and layout.
+
+### Autumn Background Development
+
+I started by creating a draft of the autumn background. The idea was to have a large open dirt area in the centre, surrounded by a decorative border that would help establish the environment's theme without interfering with the gameplay.
+
+Looking at my first draft, I felt that the background was a little too plain around the edges. The centre worked well as an open playable area, but the borders needed more personality. I explored adding clusters of fallen maple leaves, rocks, small plants, and different shades of orange, red, and yellow. I wanted the edges to feel like a forest floor where leaves have naturally accumulated over time.
+
+I also wanted to be careful not to overcrowd the central area. Since players will be digging through the surface and collecting coloured blocks, the gameplay area needs to remain readable. The decorations should frame the arena rather than compete with the tiles or characters for attention.
+
+### Winter Background Exploration
+
+I also explored a winter version using the same general composition as the autumn background. I experimented with a cooler palette of whites, icy blues, and subtle lavender tones. For the borders, I considered snow-covered evergreen trees, bare branches, red winter berries, rocks, and small snowdrifts.
+
+I like the idea of keeping the overall layout consistent between seasons while changing the surrounding details, textures, and colours. This could make the environments feel connected, as though they are different versions of the same place throughout the year.
+
+Visually, I wanted the winter version to feel softer and colder compared to the warmer autumn environment. The contrast between the two palettes also helps communicate the different seasons immediately.
+
+### Diggable Tile Refinement
+
+Another focus this week was improving the appearance of the autumn diggable tile. My original version used darker, more muted colours, but after looking at it alongside the background, I felt that it looked too gloomy. It did not have the warm and colourful atmosphere I wanted for an autumn setting.
+
+I decided to make the soil lighter and warmer, using richer shades of brown and orange. I also increased the contrast and brightness of the leaves, incorporating more vibrant reds, oranges, and golden yellows. I wanted the leaves to stand out clearly against the dirt rather than blend into it.
+
+I think this direction works better because it gives the tile more visual interest while making the autumn theme immediately recognizable. I also want to maintain a balance between the decorative elements and the soil texture. The leaves should be noticeable, but there still needs to be enough visible ground so that the tile reads as something players are digging through.
+
+One thing I am considering is how the tiles will look when placed next to one another across the entire arena. Since there will be many repeated tiles, I want to avoid making the pattern look too repetitive. Having variations in leaf placement, size, and colour could help make the surface feel more natural.
+
+### Technical Preparation
+
+I also continued considering the technical requirements for preparing the artwork in Procreate. I established a consistent pixel scale for the background and individual tiles so that the assets can be imported into Unity at the correct scale.
+
+The current plan is:
+- Background canvas: 3888 × 2160 px.
+- Individual tile: 48 × 48 px.
+- Sprite sheet containing six tiles: 144 × 96 px, arranged in three columns and two rows.
+- Resolution: 72 DPI.
+
+I chose 72 DPI because the artwork is intended for a digital game rather than print. This also allows me to have more available layers in Procreate, which is useful while experimenting with textures, colours, and small details.
+
+### Thoughts and Next Steps
+
+I am starting to get a clearer idea of how the visual identity of the seasonal environments could work. I want the game to feel colourful and inviting, but I also need to consider readability because several players will be moving around the arena at the same time.
+
+One of the main things I want to pay attention to is the relationship between the background, the diggable tiles, and the ground underneath them. When a player digs through a tile, the revealed surface should feel like a natural continuation of the environment rather than a completely separate texture. This will be important for making the digging mechanic visually understandable.
+
+Next, I want to create more variations of the autumn tiles and continue refining the winter assets. I also want to test how the tiles look when arranged together in a grid, rather than judging each one individually. This should help me identify repetition, colour clashes, or details that become too distracting when repeated across a large area.
